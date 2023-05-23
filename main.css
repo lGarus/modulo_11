@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+    background-color: blueviolet;
+}
+
+header h1 {
+    margin-left: 100px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;;
+}
+
+body {
+    background-color: rgb(150, 123, 175);
+}
+
+#sobrealoja {
+    display: flex;
+
+}
+
+#sobrealoja h2 {
+    text-align: center;
+}
+
+
+#sobrealoja img {
+    height: 240px;
+    margin-top: 76px;
+    margin-right: 50px;
+    margin-left: 300px;
+}
+
+#sobrealoja p {
+    margin-top: 120px;
+    font-size: 24px;
+    margin-right: 400px;
+}
+
+body h2 {
+    text-align: center;
+}
+
+section h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 36px;
+}
+ 
+.produtos img {
+    height: 280px;
+    margin-top: 100px;
+    width: 280;
+ }
+
+ .produtos {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin-left: 100px;
+ }
+
+.produtos h4 {
+    display: block;
+    margin-left: 40px;
+    font-size: 36px;
+}
+
+ button {
+    margin-bottom: 32px;
+    align-items: center;
+ }
+
+ button {
+    margin-left: 90px;
+ }
+
+ section h3 {
+    margin-bottom: 150px;
+ }
+
+ @media screen and (max-width: 767px) {
+    .produtos {
+        display: block
+    }
+ }
+    
+ @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .produtos {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+ }
